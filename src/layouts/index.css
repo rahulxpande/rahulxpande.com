@@ -6,7 +6,7 @@ body {
   font-size: 20px;
   color: #333333;
   -webkit-font-smoothing: antialiased;
-  line-height: 1.3;
+  line-height: 1.5;
   background-color: #fafafa;
 }
 
@@ -18,5 +18,27 @@ a {
 
 .HeroGroup {
 margin: 0 auto;
-max-width: 700px;
+max-width: 630px;
+padding: 150px 50px;
+}
+
+.Hero h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.2;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Hero p {
+  margin-bottom: 32px;
+}
+
+.Hero a {
+ font-size: 16px;
+ font-weight: 600;
+ color: rgb(255, 255, 255);
+ background: rgb(0, 122, 255);
+ padding: 10px 22px;
+ border-radius: 20px;
 }
